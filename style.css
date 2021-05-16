@@ -1,0 +1,26 @@
+
+h1{color: blue;}
+   /*{border: solid;}*/
+.header{
+    background-color: #ff5947;   
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.menu{
+    background-color:#ffff00;
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description{
+   background-color: #8a2be2; 
+   display: flex;
+   justify-content: space-evenly;
+}
+
