@@ -1,10 +1,21 @@
 
-h1{color: blue;}
-   /*{border: solid;}*/
+h1{
+    color: blue;
+    /*padding: 20px;*/ 
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+   
 .header{
+    border: solid;
+    margin: 20px;
+    padding: 20px;
     background-color: #ff5947;   
     display:flex;
     justify-content:space-evenly;
+
 }
 
 .menu{
@@ -23,4 +34,30 @@ h1{color: blue;}
    display: flex;
    justify-content: space-evenly;
 }
+
+a:link{
+    color:darkorchid;
+}
+a:visited{
+    color: #ffffff;
+}
+.item{
+    position:relative;
+}
+/*.item p{
+    position:absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    
+}*/
+.item:hover p{
+    opacity:1
+}
+
+.item:hover img{
+    opacity:0.5
+}
+
 
